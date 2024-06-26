@@ -1,0 +1,3 @@
+s = {8, 7, 12, "Harry", [1,2]} 
+
+# no indexing in set 
