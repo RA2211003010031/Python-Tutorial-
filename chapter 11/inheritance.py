@@ -1,0 +1,3 @@
+# decorators  -> @staticmethod or @...
+# super class means parents class
+# @classmethod -> for using class attribute instead of any instance attribute. We use "cls" instead of "self" here!
