@@ -1,0 +1,2 @@
+hello, this is adarsh raj
+this is a random text file for I/O file testing purposes!

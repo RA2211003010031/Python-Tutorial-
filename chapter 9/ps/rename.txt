@@ -1,0 +1,6 @@
+this file is about to rename, but we won't work that hard
+we'll simply make new file with the renamed file name
+and we will just copy all the contents of this file into that
+
+
+you'll see the contents same on both the files
