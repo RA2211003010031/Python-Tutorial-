@@ -1,0 +1,11 @@
+pip install speechrecognition pyaudio
+pip install setuptools
+pip install pyttsx3
+pip install pocketspinx
+pip install --upgrade openai
+pip install -q -U google-generativeai
+pip install gTTS
+pip install pygame
+
+
+https://github.com/Uberi/speech_recognition/blob/master/examples/microphone_recognition.py
