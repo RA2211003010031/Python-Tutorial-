@@ -1,0 +1,5 @@
+pip install pyautogui
+https://pyautogui.readthedocs.io/en/latest/quickstart.html
+pip install pyperclip = helps to take the text from clipboard
+https://chatgpt.com/share/93c33e86-aca1-42e9-a66e-a04f1e5ba5a3
+pip install openai
