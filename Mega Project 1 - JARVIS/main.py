@@ -10,7 +10,7 @@ import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsAPI = "65223d7880e7425289a76549212b05f0"
+newsAPI = ""
 
 def speak(text):
     engine.say(text)
