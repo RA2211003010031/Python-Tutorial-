@@ -3,7 +3,7 @@ import time
 import pyperclip
 # from openai import OpenAI
 
-def is_last_message_from_sender(chat_log, sender_name="Gracey"):
+def is_last_message_from_sender(chat_log, sender_name="Papa"):
     """
     Check if the last message in the chat log is from the specified sender.
 
@@ -31,13 +31,13 @@ def is_last_message_from_sender(chat_log, sender_name="Gracey"):
 # )
 
 
-# First, make sure pyperclip is installed
+#     First, make sure pyperclip is installed
 # pip install pyperclip
 
 # Coordinates for the icon and selection area
 icon_x, icon_y = 1374,1573 #brave icon
-start_x, start_y = 842,389
-end_x, end_y = 1335,1490
+start_x, start_y = 1630,295
+end_x, end_y = 2485,1380
 
 # Click on the icon
 pyautogui.click(icon_x, icon_y)
@@ -53,7 +53,7 @@ while True:
 
     # Copy the selected text to the clipboard (Ctrl+C)
     pyautogui.hotkey('ctrl', 'c')
-    pyautogui.leftClick(1622,438)
+    pyautogui.leftClick(2456,1363)
 
     # Pause to ensure the text is copied
     time.sleep(2)
@@ -64,7 +64,7 @@ while True:
     # Print the text
     print("Copied Text:")
     print(chat_history)
-    
+    print(is_last_message_from_sender(chat_history))
     if is_last_message_from_sender(chat_history):
 
         # completion = client.chat.completions.create(
